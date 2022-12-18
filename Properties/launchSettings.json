@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ExcelToTemplateJson": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\backup\\HERO_WIP.xlsx"
+    }
+  }
+}

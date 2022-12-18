@@ -1,0 +1,74 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\GouraGopalDalai\\source\\repos\\ExcelToTemplateJson\\ExcelToTemplateJson.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\GouraGopalDalai\\source\\repos\\ExcelToTemplateJson\\ExcelToTemplateJson.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\GouraGopalDalai\\source\\repos\\ExcelToTemplateJson\\ExcelToTemplateJson.csproj",
+        "projectName": "ExcelToTemplateJson",
+        "projectPath": "C:\\Users\\GouraGopalDalai\\source\\repos\\ExcelToTemplateJson\\ExcelToTemplateJson.csproj",
+        "packagesPath": "C:\\Users\\GouraGopalDalai\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\GouraGopalDalai\\source\\repos\\ExcelToTemplateJson\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\GouraGopalDalai\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\nuget_local": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
